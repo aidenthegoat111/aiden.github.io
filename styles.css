@@ -1,6 +1,45 @@
+@import url();
+
+
+
+
 html{
-    font-family: serif;
+    font-family: "Maitree", serif;
+    font-weight: 600;
+    font-style: normal;
     background: rgb(253, 254, 246);
     margin: 0;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    display: block;
+    background-color:  #9BC4BC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+h1{
+    animation: rubberBand;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    font-family: 'Maitree';
+
+}
+
+.border-box{
+    padding: 10px 10px;
+    border-image: var(--border-gradient);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50em;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Exo 2';
 }
 
