@@ -10,4 +10,5 @@ My personal site.
 
 - [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - center content and create structure to the site
 - https://animate.style/ - used the rubberband animation
+- https://developer.mozilla.org/en-US/docs/Web/CSS/display - used to check display options
 

@@ -14,9 +14,8 @@ html{
 .header{
     height: 100px;
     width: 100%;
-    display: block;
-    background-color:  #9BC4BC;
     display: flex;
+    background-color:  #9BC4BC;
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(5px);
@@ -43,3 +42,41 @@ h2{
     font-family: 'Exo 2';
 }
 
+img{
+    width: 150px;
+    justify-content: center;
+    
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 400px;
+    background-size: cover; 
+    background-position: center; 
+}
+
+.content-1 {
+    background-color: #FBB7C0; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; 
+    background-image: url('meniscus-tear_1_optimized_1_optimized.jpg');
+}
+
+.content-2 {
+    background-color: #FBB7C0; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; 
+    background-image: url('');
+}
+
+.content-3 {
+    background-color: #FBB7C0; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; 
+    background-image: url('');
+}
