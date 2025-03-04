@@ -1,9 +1,6 @@
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@600&family=Exo+2&display=swap');
 
-
-
-
-html{
+html {
     font-family: "Maitree", serif;
     font-weight: 600;
     font-style: normal;
@@ -11,26 +8,23 @@ html{
     margin: 0;
 }
 
-.header{
+.header {
     height: 100px;
     width: 100%;
     display: flex;
-    background-color:  #9BC4BC;
+    background-color: #9BC4BC;
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(5px);
 }
 
-h1{
-    animation: rubberBand;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
+h1 {
+    animation: rubberBand 1s infinite;
     font-family: 'Maitree';
-
 }
 
-.border-box{
-    padding: 10px 10px;
+.border-box {
+    padding: 10px;
     border-image: var(--border-gradient);
     border-width: 5px;
     border-style: solid;
@@ -38,45 +32,33 @@ h1{
     justify-content: center;
 }
 
-h2{
+h2 {
     font-family: 'Exo 2';
 }
 
-img{
-    width: 150px;
-    justify-content: center;
-    
+img {
+    width: 500px;
+    animation: flip 1s;
 }
 
 .flex-container {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     height: 400px;
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
 }
 
-.content-1 {
-    background-color: #FBB7C0; 
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center; 
-    background-image: url('meniscus-tear_1_optimized_1_optimized.jpg');
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
-.content-2 {
-    background-color: #FBB7C0; 
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center; 
-    background-image: url('');
-}
-
-.content-3 {
-    background-color: #FBB7C0; 
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center; 
-    background-image: url('');
+.wiggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
