@@ -16,10 +16,27 @@ html {
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(5px);
+    position: relative;
+}
+
+.home-button {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.home-button a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
 }
 
 h1 {
-    animation: rubberBand 1s infinite;
+    animation: rubberBand 1s;
     font-family: 'Maitree';
 }
 
@@ -57,8 +74,16 @@ img {
     gap: 20px;
 }
 
-.wiggle {
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hover-animate {
+  transition: transform 0.5s;
+}
+
+.hover-animate:hover {
+  transform: scale(1.1);
 }
